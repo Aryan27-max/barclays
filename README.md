@@ -392,45 +392,6 @@ This is a hackathon prototype, but contributions are welcome!
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 👨‍💻 Author
-
-Built with ❤️ for the **Barclays Hackathon 2026**
-
-### Contact
-
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your Name](https://linkedin.com/in/yourprofile)
-
----
-
-## 🙏 Acknowledgments
-
-- **Barclays** for hosting the hackathon and inspiring this solution
-- **Shadcn/ui** for the excellent component library
-- **Recharts** for powerful data visualization
-- **Lucide** for beautiful iconography
-- **Tailwind CSS** for rapid styling
-- **React Router** for robust navigation
-
----
-
-<div align="center">
-
-### ⭐ Star this repository if you find it useful!
-
-**Made with 🏦 for enterprise AML compliance**
-
-<p>
-  <sub>Disclaimer: This is a prototype for demonstration purposes. Not intended for production use without proper security hardening and regulatory compliance verification.</sub>
-</p>
-
 </div>
 
   
