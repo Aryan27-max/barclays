@@ -123,13 +123,13 @@ This platform addresses the critical need for **transparency** and **auditabilit
 <div align="center">
 
 ### Dashboard Overview
-<img width="777" height="550" alt="Screenshot 2026-02-18 202242" src="https://github.com/user-attachments/assets/d031cf25-f97d-43dc-ac83-79f27d43782c" />
+<img width="999" height="550" alt="Screenshot 2026-02-18 202242" src="https://github.com/user-attachments/assets/d031cf25-f97d-43dc-ac83-79f27d43782c" />
 
 ### Generate SAR Interface
-<img width="777" height="550" alt="Screenshot 2026-02-18 202909" src="https://github.com/user-attachments/assets/979ddbca-6999-4091-b01b-71f03012e067" />
+<img width="999" height="550" alt="Screenshot 2026-02-18 202909" src="https://github.com/user-attachments/assets/979ddbca-6999-4091-b01b-71f03012e067" />
 
 ### Risk Analytics
-<img width="777" height="550" alt="Screenshot 2026-02-18 203014" src="https://github.com/user-attachments/assets/c19786a8-e948-4c95-9cec-dd0666386168" />
+<img width="999" height="550" alt="Screenshot 2026-02-18 203014" src="https://github.com/user-attachments/assets/c19786a8-e948-4c95-9cec-dd0666386168" />
 
 
 </div>
