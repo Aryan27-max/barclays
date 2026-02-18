@@ -2,13 +2,12 @@
  <div align="center">
 
 # 🏦 SAR Narrative Generator with Full Audit Trail
-
 ### Enterprise AML Compliance Platform for Barclays Hackathon
 
 
   ## AML Compliance Platform UI Design
+   This is a code bundle for AML Compliance Platform UI Design. The original project is available at https://www.figma.com/design/RsILi2ijdoGK4zw328S167/AML-Compliance-Platform-UI-Design.
 
-  This is a code bundle for AML Compliance Platform UI Design. The original project is available at https://www.figma.com/design/RsILi2ijdoGK4zw328S167/AML-Compliance-Platform-UI-Design.
 
 
 <p align="center">
