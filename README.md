@@ -1,18 +1,15 @@
 
-  # AML Compliance Platform UI Design
-
-  This is a code bundle for AML Compliance Platform UI Design. The original project is available at https://www.figma.com/design/RsILi2ijdoGK4zw328S167/AML-Compliance-Platform-UI-Design.
-
-  ## Running the code
-
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  <div align="center">
+ <div align="center">
 
 # 🏦 SAR Narrative Generator with Full Audit Trail
 
 ### Enterprise AML Compliance Platform for Barclays Hackathon
+
+
+  ## AML Compliance Platform UI Design
+
+  This is a code bundle for AML Compliance Platform UI Design. The original project is available at https://www.figma.com/design/RsILi2ijdoGK4zw328S167/AML-Compliance-Platform-UI-Design.
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Prototype-blue?style=for-the-badge" alt="Status" />
@@ -42,8 +39,6 @@
 - [Design System](#-design-system)
 - [Security & Compliance](#-security--compliance)
 - [Future Enhancements](#-future-enhancements)
-- [Contributing](#-contributing)
-- [License](#-license)
 
 ---
 
@@ -133,16 +128,14 @@ This platform addresses the critical need for **transparency** and **auditabilit
 <div align="center">
 
 ### Dashboard Overview
-*Real-time metrics, active cases, and quick actions*
+<img width="877" height="592" alt="Screenshot 2026-02-18 202242" src="https://github.com/user-attachments/assets/d031cf25-f97d-43dc-ac83-79f27d43782c" />
 
 ### Generate SAR Interface
-*AI-assisted narrative creation with rule engine validation*
-
-### Audit Trail
-*Complete transparency with timestamp tracking*
+<img width="1152" height="660" alt="Screenshot 2026-02-18 202909" src="https://github.com/user-attachments/assets/979ddbca-6999-4091-b01b-71f03012e067" />
 
 ### Risk Analytics
-*Visual insights into suspicious activity patterns*
+<img width="1075" height="663" alt="Screenshot 2026-02-18 203014" src="https://github.com/user-attachments/assets/c19786a8-e948-4c95-9cec-dd0666386168" />
+
 
 </div>
 
@@ -367,28 +360,6 @@ The platform uses a **professional enterprise banking theme** with risk-based co
 - [ ] Docker containerization
 - [ ] Performance optimization (code splitting, lazy loading)
 - [ ] Accessibility audit and improvements
-
----
-
-## 🤝 Contributing
-
-This is a hackathon prototype, but contributions are welcome!
-
-### How to Contribute
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Code Style
-
-- Follow existing TypeScript conventions
-- Use functional components and hooks
-- Keep components under 300 lines
-- Add comments for complex logic
-- Use meaningful variable names
 
 ---
 
