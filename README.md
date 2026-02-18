@@ -123,13 +123,13 @@ This platform addresses the critical need for **transparency** and **auditabilit
 <div align="center">
 
 ### Dashboard Overview
-<img width="877" height="592" alt="Screenshot 2026-02-18 202242" src="https://github.com/user-attachments/assets/d031cf25-f97d-43dc-ac83-79f27d43782c" />
+<img width="777" height="550" alt="Screenshot 2026-02-18 202242" src="https://github.com/user-attachments/assets/d031cf25-f97d-43dc-ac83-79f27d43782c" />
 
 ### Generate SAR Interface
-<img width="1152" height="660" alt="Screenshot 2026-02-18 202909" src="https://github.com/user-attachments/assets/979ddbca-6999-4091-b01b-71f03012e067" />
+<img width="777" height="550" alt="Screenshot 2026-02-18 202909" src="https://github.com/user-attachments/assets/979ddbca-6999-4091-b01b-71f03012e067" />
 
 ### Risk Analytics
-<img width="1075" height="663" alt="Screenshot 2026-02-18 203014" src="https://github.com/user-attachments/assets/c19786a8-e948-4c95-9cec-dd0666386168" />
+<img width="777" height="550" alt="Screenshot 2026-02-18 203014" src="https://github.com/user-attachments/assets/c19786a8-e948-4c95-9cec-dd0666386168" />
 
 
 </div>
@@ -319,8 +319,6 @@ The platform uses a **professional enterprise banking theme** with risk-based co
 - **Input Validation** - All forms validated client-side
 
 ### Production Considerations
-
-⚠️ **This is a hackathon prototype.** For production deployment:
 
 - Implement backend API with proper authentication (OAuth 2.0 / SAML)
 - Use encrypted database for sensitive data
