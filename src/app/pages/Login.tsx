@@ -1,14 +1,22 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
 import { useRole } from "../context/RoleContext";
-import { Shield } from "lucide-react";
+import { Shield, AlertCircle } from "lucide-react";
 
 export const Login = () => {
   const [employeeId, setEmployeeId] = useState("");
   const [password, setPassword] = useState("");
   const [rememberMe, setRememberMe] = useState(false);
+  const [error, setError] = useState("");
   const { setUser, isAuthenticated } = useRole();
   const navigate = useNavigate();
+
+  // Demo credentials
+  const validCredentials = [
+    { employeeId: "ex123", password: "analyst123", name: "Sarah Chen", role: "Analyst" as const },
+    { employeeId: "ex456", password: "supervisor123", name: "Michael Torres", role: "Supervisor" as const },
+    { employeeId: "ex789", password: "auditor123", name: "Jennifer Wu", role: "Auditor" as const },
+  ];
 
   useEffect(() => {
     if (isAuthenticated) {
@@ -18,19 +26,37 @@ export const Login = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    setError("");
     
-    // Mock authentication
-    setUser({
-      employeeId: employeeId || "EMP-45829",
-      name: "Sarah Chen",
-      role: "Analyst",
-    });
-    
-    navigate("/");
+    // Validate credentials
+    const validUser = validCredentials.find(
+      (cred) => cred.employeeId === employeeId && cred.password === password
+    );
+
+    if (validUser) {
+      setUser({
+        employeeId: validUser.employeeId,
+        name: validUser.name,
+        role: validUser.role,
+      });
+      navigate("/");
+    } else {
+      setError("Invalid employee ID or password. Please use demo credentials below.");
+    }
   };
 
   return (
-    <div className="min-h-screen bg-background flex items-center justify-center p-4">
+    <div className="min-h-screen bg-background flex items-center justify-center p-4 relative">
+      {/* Prototype Stamp */}
+      <div className="absolute top-8 right-8">
+        <div className="relative">
+          <div className="absolute inset-0 bg-red-600/10 blur-xl rounded-full"></div>
+          <div className="relative bg-red-600/90 text-white px-6 py-3 rounded-lg border-4 border-red-500 shadow-2xl">
+            <span className="text-2xl font-bold tracking-wider uppercase">PROTOTYPE</span>
+          </div>
+        </div>
+      </div>
+
       <div className="w-full max-w-md">
         {/* Header */}
         <div className="text-center mb-8">
@@ -48,6 +74,13 @@ export const Login = () => {
         {/* Login Form */}
         <div className="bg-card border border-border rounded-lg p-8">
           <form onSubmit={handleSubmit} className="space-y-6">
+            {error && (
+              <div className="flex items-center gap-2 p-3 bg-red-500/10 border border-red-500/20 rounded text-red-400 text-sm">
+                <AlertCircle className="w-4 h-4 flex-shrink-0" />
+                <span>{error}</span>
+              </div>
+            )}
+
             <div>
               <label htmlFor="employeeId" className="block text-sm font-medium text-foreground mb-2">
                 Employee ID
@@ -58,7 +91,8 @@ export const Login = () => {
                 value={employeeId}
                 onChange={(e) => setEmployeeId(e.target.value)}
                 className="w-full px-4 py-2.5 bg-input-background border border-input rounded text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary"
-                placeholder="Enter your employee ID"
+                placeholder="ex123"
+                required
               />
             </div>
 
@@ -72,7 +106,8 @@ export const Login = () => {
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 className="w-full px-4 py-2.5 bg-input-background border border-input rounded text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary"
-                placeholder="Enter your password"
+                placeholder="••••••••"
+                required
               />
             </div>
 
@@ -99,11 +134,30 @@ export const Login = () => {
         </div>
 
         {/* Footer */}
-        <div className="mt-6 text-center">
-          <p className="text-xs text-muted-foreground">
+        <div className="mt-6 space-y-4">
+          <p className="text-xs text-muted-foreground text-center">
             Authorized internal use only. All activity is monitored and logged.
           </p>
-          <div className="mt-3 flex items-center justify-center gap-2">
+          
+          {/* Demo Credentials */}
+          <div className="bg-primary/5 border border-primary/20 rounded-lg p-4">
+            <h3 className="text-xs font-semibold text-primary mb-3 flex items-center gap-2">
+              <Shield className="w-3.5 h-3.5" />
+              Demo Credentials
+            </h3>
+            <div className="space-y-1.5 text-sm text-foreground">
+              <div className="flex items-start gap-2">
+                <span className="text-muted-foreground min-w-[100px]">Employee ID:</span>
+                <span className="font-mono text-primary">ex123</span>
+              </div>
+              <div className="flex items-start gap-2">
+                <span className="text-muted-foreground min-w-[100px]">Password:</span>
+                <span className="font-mono text-primary">analyst123</span>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex items-center justify-center gap-2">
             <span className="px-2 py-1 bg-primary/10 text-primary text-xs rounded border border-primary/20">
               Cloud Environment
             </span>
