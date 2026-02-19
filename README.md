@@ -2,9 +2,6 @@
  <div align="center">
 
 # 🏦 SAR Narrative Generator with Full Audit Trail
-  ## AML Compliance Platform UI Design
-   This is a code bundle for AML Compliance Platform UI Design. The original project is available at https://www.figma.com/design/RsILi2ijdoGK4zw328S167/AML-Compliance-Platform-UI-Design.
-
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Prototype-blue?style=for-the-badge" alt="Status" />
@@ -15,6 +12,46 @@
 <p align="center">
   <strong>An AI-powered compliance tool that helps analysts generate Suspicious Activity Reports (SARs) with complete transparency, audit trails, and regulatory compliance.</strong>
 </p>
+##  Technology Stack
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+  <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/langchain-color.png" alt="LangChain" width="48" height="48" />
+  <img src="https://miro.medium.com/v2/resize:fit:536/format:webp/1*2ofNU5JgKwcqT_wORFEK_w.png" alt="ChromaDB" width="48" height="48" />
+</div>
+<br />
+<sub><strong>LLM (Llama/Mistral/GPT) • LangChain • ChromaDB</strong></sub>
+<br />
+<sub>Controlled narrative generation from templates & guidelines (RAG architecture)</sub>
+
+### 🗄️ Database & ORM
+<img src="https://skillicons.dev/icons?i=postgresql,prisma" alt="Database" />
+<br />
+<sub><strong>PostgreSQL • Prisma ORM</strong></sub>
+<br />
+<sub>Case data, SAR versions, immutable audit logs</sub>
+
+### 🔐 Access Control
+<img src="https://skillicons.dev/icons?i=react" alt="RBAC" />
+<br />
+<sub><strong>RBAC (Role-Based Access Control)</strong></sub>
+<br />
+<sub>Analyst • Supervisor • Auditor roles inside Next.js</sub>
+
+### 🚀 DevOps & Deployment
+<img src="https://skillicons.dev/icons?i=docker,git,github,npm" alt="DevOps" />
+<br />
+<sub><strong>Docker • Docker Compose • Git • GitHub • npm</strong></sub>
+<br />
+<sub>Local development + cloud/on-prem ready containerization</sub>
+
+### 📊 Data Visualization & UI Libraries
+<img src="https://skillicons.dev/icons?i=materialui,css" alt="UI Libraries" />
+<br />
+<sub><strong>Recharts • Material UI • Lucide Icons • Motion</strong></sub>
+<br />
+<sub>Interactive charts, enterprise components, smooth animations</sub>
+
+</div>
+
 
 <br />
 
@@ -79,13 +116,6 @@ This platform addresses the critical need for **transparency** and **auditabilit
 ---
 
 ##  Technology Stack
-
-<div align="center">
-
----
-
-## 🛠 Technology Stack
-
 <div align="center">
 
 ### 🎯 Full-Stack Application
