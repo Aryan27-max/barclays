@@ -78,30 +78,63 @@ This platform addresses the critical need for **transparency** and **auditabilit
 
 ---
 
-## 🛠 Technology Stack
+##  Technology Stack
 
 <div align="center">
 
-### Frontend Framework & Core
-<img src="https://skillicons.dev/icons?i=react,typescript,vite" alt="Frontend" />
-
-### Styling & UI
-<img src="https://skillicons.dev/icons?i=tailwind,css,materialui" alt="Styling" />
-
-### State Management & Routing
-<img src="https://skillicons.dev/icons?i=react" alt="State Management" />
+###  Full-Stack Application
+<img src="https://skillicons.dev/icons?i=nextjs,typescript,tailwind,react" alt="Frontend Stack" />
 <br />
-<sub>React Context API • React Router v7 • React Hook Form</sub>
+<sub><strong>Next.js • TypeScript • Tailwind CSS • React</strong></sub>
+<br />
+<sub>Analyst UI, approvals, audit views, API routes</sub>
 
-### Data Visualization
-<sub>Recharts • Lucide React Icons</sub>
+###  Orchestration & Workflow
+<img src="https://skillicons.dev/icons?i=docker" alt="Orchestration" />
+<br />
+<sub><strong>n8n (Workflow Automation)</strong></sub>
+<br />
+<sub>Ingestion, feature engineering, rules, scoring, AI calls, audit logging</sub>
 
-### Development Tools
-<img src="https://skillicons.dev/icons?i=git,github,npm" alt="Dev Tools" />
+###  AI & Vector Store
+<img src="https://skillicons.dev/icons?i=python" alt="AI Stack" />
+<br />
+<sub><strong>LLM (Llama/Mistral/GPT) • LangChain • ChromaDB</strong></sub>
+<br />
+<sub>Controlled narrative generation from templates & guidelines (RAG architecture)</sub>
+
+###  Database & ORM
+<img src="https://skillicons.dev/icons?i=postgresql,prisma" alt="Database" />
+<br />
+<sub><strong>PostgreSQL • Prisma ORM</strong></sub>
+<br />
+<sub>Case data, SAR versions, immutable audit logs</sub>
+
+###  Access Control
+<img src="https://skillicons.dev/icons?i=react" alt="RBAC" />
+<br />
+<sub><strong>RBAC (Role-Based Access Control)</strong></sub>
+<br />
+<sub>Analyst • Supervisor • Auditor roles inside Next.js</sub>
+
+###  DevOps & Deployment
+<img src="https://skillicons.dev/icons?i=docker,git,github,npm" alt="DevOps" />
+<br />
+<sub><strong>Docker • Docker Compose • Git • GitHub • npm</strong></sub>
+<br />
+<sub>Local development + cloud/on-prem ready containerization</sub>
+
+###  Data Visualization & UI Libraries
+<img src="https://skillicons.dev/icons?i=materialui,css" alt="UI Libraries" />
+<br />
+<sub><strong>Recharts • Material UI • Lucide Icons • Motion</strong></sub>
+<br />
+<sub>Interactive charts, enterprise components, smooth animations</sub>
 
 </div>
+</div>
 
-### 📦 Core Dependencies
+###  Core Dependencies
 
 ```json
 {
