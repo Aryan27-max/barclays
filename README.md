@@ -1,24 +1,31 @@
-
- <div align="center">
-
 # 🏦 SAR Narrative Generator with Full Audit Trail
+
+<p align="center"><strong>Enterprise AML Compliance Platform for Barclays Hackathon.</strong>
+</p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Prototype-blue?style=for-the-badge" alt="Status" />
   <img src="https://img.shields.io/badge/Built%20For-Barclays%20Hackathon-1E3A8A?style=for-the-badge" alt="Barclays" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/badge/MIT-Licence-green?style=for-the-badge" alt="License" />
 </p>
 
 <p align="center">
   <strong>An AI-powered compliance tool that helps analysts generate Suspicious Activity Reports (SARs) with complete transparency, audit trails, and regulatory compliance.</strong>
 </p>
-##  Technology Stack
+
+<br />
+
+</div>
+
+## 🛠 Technology Stack
+
 <div align="center">
 
 ### 🎯 Full-Stack Application
-<img src="https://skillicons.dev/icons?i=nextjs,typescript,tailwind,react" alt="Frontend Stack" />
+<img src="https://skillicons.dev/icons?i=nextjs,typescript,tailwind" alt="Frontend Stack" />
 <br />
-<sub><strong>Next.js • TypeScript • Tailwind CSS • React</strong></sub>
+<sub><strong>Next.js • TypeScript • Tailwind CSS</strong></sub>
 <br />
 <sub>Analyst UI, approvals, audit views, API routes</sub>
 
@@ -31,6 +38,7 @@
 
 ### 🤖 AI & Vector Store
 <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+  <img src="https://static.vecteezy.com/system/resources/thumbnails/049/809/118/small/llama-head-icon-in-line-style-on-white-background-vector.jpg" alt="Llama" width="48" height="48" />
   <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/langchain-color.png" alt="LangChain" width="48" height="48" />
   <img src="https://miro.medium.com/v2/resize:fit:536/format:webp/1*2ofNU5JgKwcqT_wORFEK_w.png" alt="ChromaDB" width="48" height="48" />
 </div>
@@ -69,6 +77,7 @@
 
 </div>
 
+---
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
