@@ -82,50 +82,58 @@ This platform addresses the critical need for **transparency** and **auditabilit
 
 <div align="center">
 
-###  Full-Stack Application
+---
+
+## 🛠 Technology Stack
+
+<div align="center">
+
+### 🎯 Full-Stack Application
 <img src="https://skillicons.dev/icons?i=nextjs,typescript,tailwind,react" alt="Frontend Stack" />
 <br />
 <sub><strong>Next.js • TypeScript • Tailwind CSS • React</strong></sub>
 <br />
 <sub>Analyst UI, approvals, audit views, API routes</sub>
 
-###  Orchestration & Workflow
+### ⚙️ Orchestration & Workflow
 <img src="https://skillicons.dev/icons?i=docker" alt="Orchestration" />
 <br />
 <sub><strong>n8n (Workflow Automation)</strong></sub>
 <br />
 <sub>Ingestion, feature engineering, rules, scoring, AI calls, audit logging</sub>
 
-###  AI & Vector Store
-<img src="https://cdn.simpleicons.org/chromadb" width="60" alt="ChromaDB Logo"/>
+### 🤖 AI & Vector Store
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+  <img src="https://raw.githubusercontent.com/lobehub/lobe-icons/refs/heads/master/packages/static-png/light/langchain-color.png" alt="LangChain" width="48" height="48" />
+  <img src="https://miro.medium.com/v2/resize:fit:536/format:webp/1*2ofNU5JgKwcqT_wORFEK_w.png" alt="ChromaDB" width="48" height="48" />
+</div>
 <br />
 <sub><strong>LLM (Llama/Mistral/GPT) • LangChain • ChromaDB</strong></sub>
 <br />
-<img src="https://cdn.simpleicons.org/langchain" width="60" alt="LangChain Logo"/>
 <sub>Controlled narrative generation from templates & guidelines (RAG architecture)</sub>
 
-###  Database & ORM
+### 🗄️ Database & ORM
 <img src="https://skillicons.dev/icons?i=postgresql,prisma" alt="Database" />
 <br />
 <sub><strong>PostgreSQL • Prisma ORM</strong></sub>
 <br />
 <sub>Case data, SAR versions, immutable audit logs</sub>
 
-###  Access Control
+### 🔐 Access Control
 <img src="https://skillicons.dev/icons?i=react" alt="RBAC" />
 <br />
 <sub><strong>RBAC (Role-Based Access Control)</strong></sub>
 <br />
 <sub>Analyst • Supervisor • Auditor roles inside Next.js</sub>
 
-###  DevOps & Deployment
+### 🚀 DevOps & Deployment
 <img src="https://skillicons.dev/icons?i=docker,git,github,npm" alt="DevOps" />
 <br />
 <sub><strong>Docker • Docker Compose • Git • GitHub • npm</strong></sub>
 <br />
 <sub>Local development + cloud/on-prem ready containerization</sub>
 
-###  Data Visualization & UI Libraries
+### 📊 Data Visualization & UI Libraries
 <img src="https://skillicons.dev/icons?i=materialui,css" alt="UI Libraries" />
 <br />
 <sub><strong>Recharts • Material UI • Lucide Icons • Motion</strong></sub>
