@@ -97,10 +97,11 @@ This platform addresses the critical need for **transparency** and **auditabilit
 <sub>Ingestion, feature engineering, rules, scoring, AI calls, audit logging</sub>
 
 ###  AI & Vector Store
-<img src="https://skillicons.dev/icons?i=python" alt="AI Stack" />
+<img src="https://cdn.simpleicons.org/chromadb" width="60" alt="ChromaDB Logo"/>
 <br />
 <sub><strong>LLM (Llama/Mistral/GPT) • LangChain • ChromaDB</strong></sub>
 <br />
+<img src="https://cdn.simpleicons.org/langchain" width="60" alt="LangChain Logo"/>
 <sub>Controlled narrative generation from templates & guidelines (RAG architecture)</sub>
 
 ###  Database & ORM
